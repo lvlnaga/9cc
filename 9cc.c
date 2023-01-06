@@ -94,7 +94,7 @@ bool at_eof()
 // 新しいトークンを作成してcurに繋げる
 Token *new_token(TokenKind kind, Token *cur, char *str)
 {
-  Token *tok = calloc(1, sizeof(Token)); //? callocの仕様を知りたい
+  Token *tok = calloc(1, sizeof(Token));
   tok->kind = kind;
   tok->str = str;
   cur->next = tok;
@@ -119,7 +119,7 @@ Token *tokenize()
     }
 
 //    if (*p == '+' || *p == '-' || *p == '*' || *p == '/' || *p == '(' || *p == ')' )
-    if (strchr("+-*/()",*p)) //strchrってどういう関数?
+    if (strchr("+-*/()",*p)) 
     {
       cur = new_token(TK_RESERVED, cur, p++);
       continue;
@@ -185,6 +185,7 @@ Node *new_node_num(int val)
 
 Node *expr();
 Node *mul();
+Node *unary();
 Node *primary();
 
 // expr    = mul ("+" mul | "-" mul)*
@@ -203,20 +204,30 @@ Node *expr()
   }
 }
 
-// mul     = primary ("*" primary | "/" primary)*
+// mul     = unary ("*" unary | "/" unary)*
 // *,/ : 左結合演算子
 Node *mul()
 {
-  Node *node = primary();
+  Node *node = unary();
   for (;;)
   {
     if (consume('*'))
-      node = new_node(ND_MUL, node, primary());
+      node = new_node(ND_MUL, node, unary());
     else if (consume('/'))
-      node = new_node(ND_DIV, node, primary());
+      node = new_node(ND_DIV, node, unary());
     else
       return node;
   }
+}
+
+// unary  = unary   = ("+" | "-")? primary
+Node *unary()
+{
+  if (consume('+'))
+      return primary();
+  if (consume('-'))
+    return new_node(ND_SUB, new_node_num(0),primary());
+  return primary();
 }
 
 // primary = num | "(" expr ")"
@@ -246,7 +257,7 @@ void gen(Node *node)
   if (node->kind == ND_NUM )
   {
     printf("  push %d\n", node->val);
-    return; //空returnはどう解釈される?
+    return;
   }
 
   gen(node->lhs);
