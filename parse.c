@@ -1,11 +1,83 @@
 #include "9cc.h"
 
+/*
+program    = stmt*
+stmt       = expr ";"
+expr       = assign
+assign     = equality ("=" assign)?
+equality   = relational ("==" relational | "!=" relational)*
+relational = add ("<" add | "<=" add | ">" add | ">=" add)*
+add        = mul ("+" mul | "-" mul)*
+mul        = unary ("*" unary | "/" unary)*
+unary      = ("+" | "-")? primary
+primary    = num | ident | "(" expr ")"
+*/
+void *program();
+static Node *stmt();
+static Node *expr();
+static Node *assign();
 static Node *equality();
 static Node *relational();
 static Node *add();
 static Node *mul();
 static Node *unary();
 static Node *primary();
+
+
+
+// 次のトークンが期待している記号のときには、トークンを１つ読み進めて
+// Trueを返す。それ以外の場合はFalseを返す。
+static bool consume(char *op)
+{
+  if (token->kind != TK_RESERVED ||
+      strlen(op) != token->len ||         // トークンと文字サイズが違う場合はfalse
+      memcmp(token->str, op, token->len)) // 期待するトークンと不一致の場合はfalse
+    return false;
+  token = token->next;
+  return true;
+}
+
+// 次のトークンがidentのときには、トークンを１つ読み進めて
+// そのトークンを返す。それ以外の場合はNULLを返す。
+static Token *consume_ident()
+{
+  if (token->kind != TK_IDENT)
+    return NULL;// 期待するトークンと不一致(変数でなければ)の場合はNULL
+
+  // 次のトークンがIdentのときはreturnするtokenを退避
+  Token *ret = token;
+  // tokenを次にconsumeする
+  token = token->next;
+  return ret;
+}
+
+// 次のトークンが期待している記号のときには、トークンを１つ読み進める。
+// それ以外の場合にはエラーを報告する。
+static void expect(char *op)
+{
+  if (token->kind != TK_RESERVED ||
+      strlen(op) != token->len ||         // トークンと文字サイズが違う場合はfalse
+      memcmp(token->str, op, token->len)) // 期待するトークンと不一致の場合はfalse
+    error_at(token->str, "\"%s\"ではありません", op);
+  token = token->next;
+}
+
+// 次のトークンが数値の場合、トークンを１つ読み進めてその数値を返す。
+// それ以外の場合にはエラーを報告する。
+static int expect_number()
+{
+  if (token->kind != TK_NUM)
+    error_at(token->str, "数ではありません");
+  int val = token->val;
+  token = token->next;
+  return val;
+}
+
+// トークンの終端を示す
+static bool at_eof()
+{
+  return token->kind == TK_EOF;
+}
 
 Node *new_node(NodeKind kind)
 {
@@ -34,12 +106,38 @@ Node *new_num(int val)
   return node;
 }
 
-// expr    = mul ("+" mul | "-" mul)*
-// +,- : 左結合演算子
-// expr    = equality
-Node *expr()
+// program    = stmt*
+void *program()
 {
-  return equality();
+  int i = 0;
+  while (!at_eof())
+    code[i++] = stmt();
+  code[i] = NULL; //ここで末尾にNULLを入れているから, mainのコード生成のfor文の終了条件判定がcode[i]でOKなのか
+}
+
+// stmt       = expr ";"
+static Node *stmt()
+{
+  Node *node = expr();
+  expect(";");
+  return node;
+}
+
+// expr    = assign
+static Node *expr()
+{
+  return assign();
+}
+
+// assign     = equality ("=" assign)?
+// ()ってどういう意味だっけ？ ( ... ) -> グループ化
+// ?ってどういう意味だっけ？  A? -> Aまたはε
+static Node *assign()
+{
+  Node *node = equality();
+  if (consume("="))
+    node = new_binary(ND_ASSIGN, node, assign());
+  return node;
 }
 
 // equality   = relational ("==" relational | "!=" relational)*
@@ -108,7 +206,7 @@ static Node *mul()
 }
 
 // unary  =  ("+" | "-")? primary
-// TODO Referenceだと違うが、テキストに合わせる
+// NOTE Referenceだと違うが、テキストに合わせる
 static Node *unary()
 {
   if (consume("+"))
@@ -118,7 +216,8 @@ static Node *unary()
   return primary();
 }
 
-// primary = num | "(" expr ")"
+// 旧：primary = num | "(" expr ")"
+// 新：primary    = num | ident | "(" expr ")"
 static Node *primary()
 {
   // 次のトークンが"("なら、"(" expr ")"のはず
@@ -129,7 +228,16 @@ static Node *primary()
     return node;
   }
 
-  // そうでなければ数値のはず
+  Token *tok = consume_ident(); 
+  if (tok)
+  {
+    Node *node = calloc(1, sizeof(Node));
+    node->kind = ND_LVAR;
+    //文字コードからaから何文字先かを求めてそれに8byte掛けて、オフセットを計算
+    node->offset = (tok->str[0] - 'a'+1) * 8; 
+    return node;
+  }
+  
+  // （）でもidentでもなければ数値のはず
   return new_num(expect_number());
 }
-
