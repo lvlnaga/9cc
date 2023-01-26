@@ -1,3 +1,6 @@
+#ifndef INCLUDED_9CC
+#define INCLUDED_9CC
+
 #include <ctype.h>
 #include <stdarg.h>
 #include <stdbool.h>
@@ -6,8 +9,7 @@
 #include <string.h>
 
 // For Debug
-// #define DEBUG
-
+//#define DEBUG
 
 //
 // tokenize.c
@@ -17,7 +19,7 @@
 typedef enum
 {
   TK_RESERVED, // 記号
-  TK_IDENT,    // 識別子
+  TK_IDENT,    // 識別子(変数)
   TK_NUM,      // 整数トークン
   TK_EOF,      // 入力の終わりを表すトークン
 } TokenKind;
@@ -31,6 +33,17 @@ struct Token
   int val;        // kindがTK_NUMの場合、その数値
   char *str;      // トークン文字列
   int len;        // トークンの長さ
+};
+
+// ローカル変数の型
+typedef struct LVar LVar;
+
+struct LVar
+{
+  LVar *next; // 次の変数かNULL
+  char *name; // 変数名
+  int len;    // 変数名の長さ
+  int offset; // RBPからのオフセット
 };
 
 // 関数プロトタイプ宣言
@@ -71,22 +84,25 @@ struct Node
 
 void *program();
 
-
 //
 // codegen.c
 //
 void codegen(Node *node);
 void gen(Node *node);
 
-// 
+//
 // グローバル変数
-// 
+//
 // 入力プログラム
 char *user_input;
 
 // 現在着目しているトークン
 Token *token;
 
+// ローカル変数
+LVar *locals;
+
 // パースしたノードの格納場所
 Node *code[100];
 
+#endif // INCLUDED_9CC

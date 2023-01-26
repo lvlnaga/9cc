@@ -26,6 +26,13 @@ void error_at(char *loc, char *fmt, ...)
   exit(1);
 }
 
+LVar *dummy_lvar() {
+  LVar *var = calloc(1, sizeof(LVar));
+  var->next = NULL;
+  var->offset = 0;
+
+  return var;
+}
 
 int main(int argc, char **argv)
 {
@@ -35,6 +42,10 @@ int main(int argc, char **argv)
   // トークナイズしてパースする
   // 結果はcodeに保存される
   user_input = argv[1];
+
+  // ローカル変数の初期化
+  locals = dummy_lvar();
+
   token = tokenize(); // お手本はtokenize()のreturnが内容になっているが、ここは実装を変えない
   program();
 

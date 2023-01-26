@@ -17,7 +17,13 @@ Cコンパイラ作成入門のメモ #x (Stepx, x)
 ## Step7
 [https://github.com/lvlnaga/9cc/commit/e89c0bbd2f42a5a409211f38822f7d1b8bc6c45b](https://github.com/lvlnaga/9cc/commit/e89c0bbd2f42a5a409211f38822f7d1b8bc6c45b)
 
-# 調べたこと
+# 調べたこと・理解したこと
+
+## 見出し
+### イメージ図/コード
+### メモ
+### 参考
+
 ## startswith
 ### コード
 ```c

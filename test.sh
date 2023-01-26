@@ -49,4 +49,10 @@ assert 3 'a=3; a;'
 assert 22 'b = 5 * 6 - 8; b;'
 assert 14 'a = 3; b = 5 * 6 - 8; a + b / 2;'
 
+#Support multi-letter local variables
+assert 1 'foo = 1; foo;'
+assert 5 'bar = 2 + 3; bar;'
+assert 6 'foo = 1; bar = 2 + 3; foo+bar;'
+assert 8 'foo123 = 3; bar = 2 + 3; foo123+bar;'
+
 echo OK

@@ -1,30 +1,5 @@
 #include "9cc.h"
 
-/*
-program    = stmt*
-stmt       = expr ";"
-expr       = assign
-assign     = equality ("=" assign)?
-equality   = relational ("==" relational | "!=" relational)*
-relational = add ("<" add | "<=" add | ">" add | ">=" add)*
-add        = mul ("+" mul | "-" mul)*
-mul        = unary ("*" unary | "/" unary)*
-unary      = ("+" | "-")? primary
-primary    = num | ident | "(" expr ")"
-*/
-void *program();
-static Node *stmt();
-static Node *expr();
-static Node *assign();
-static Node *equality();
-static Node *relational();
-static Node *add();
-static Node *mul();
-static Node *unary();
-static Node *primary();
-
-
-
 // 次のトークンが期待している記号のときには、トークンを１つ読み進めて
 // Trueを返す。それ以外の場合はFalseを返す。
 static bool consume(char *op)
@@ -42,7 +17,7 @@ static bool consume(char *op)
 static Token *consume_ident()
 {
   if (token->kind != TK_IDENT)
-    return NULL;// 期待するトークンと不一致(変数でなければ)の場合はNULL
+    return NULL; // 期待するトークンと不一致(変数でなければ)の場合はNULL
 
   // 次のトークンがIdentのときはreturnするtokenを退避
   Token *ret = token;
@@ -106,13 +81,59 @@ Node *new_num(int val)
   return node;
 }
 
+// 変数を名前で検索する。見つからなかった場合はNULLを返す
+static LVar *find_lvar(Token *tok)
+{
+  for (LVar *var = locals; var; var = var->next)
+  {
+    if (var->len == tok->len && !memcmp(tok->str, var->name, var->len))
+    // TODO: memcmpのところ何やっているか理解する
+    // たぶん...memcmpはメモリ比較だから、トークンの文字とvarの文字が一致しているかをチェックしている
+    {
+      // すでにlocalsに登録されている場合はその変数を返す。
+#ifdef DEBUG      
+      fprintf(stderr, "lvar is found \n");
+#endif      
+      return var;
+    }
+  }
+#ifdef DEBUG      
+      fprintf(stderr, "lvar is not found \n");
+#endif      
+
+  return NULL;
+}
+
+/*
+program    = stmt*
+stmt       = expr ";"
+expr       = assign
+assign     = equality ("=" assign)?
+equality   = relational ("==" relational | "!=" relational)*
+relational = add ("<" add | "<=" add | ">" add | ">=" add)*
+add        = mul ("+" mul | "-" mul)*
+mul        = unary ("*" unary | "/" unary)*
+unary      = ("+" | "-")? primary
+primary    = num | ident | "(" expr ")"
+*/
+void *program();
+static Node *stmt();
+static Node *expr();
+static Node *assign();
+static Node *equality();
+static Node *relational();
+static Node *add();
+static Node *mul();
+static Node *unary();
+static Node *primary();
+
 // program    = stmt*
 void *program()
 {
   int i = 0;
   while (!at_eof())
     code[i++] = stmt();
-  code[i] = NULL; //ここで末尾にNULLを入れているから, mainのコード生成のfor文の終了条件判定がcode[i]でOKなのか
+  code[i] = NULL; // ここで末尾にNULLを入れているから, mainのコード生成のfor文の終了条件判定がcode[i]でOKなのか
 }
 
 // stmt       = expr ";"
@@ -216,7 +237,6 @@ static Node *unary()
   return primary();
 }
 
-// 旧：primary = num | "(" expr ")"
 // 新：primary    = num | ident | "(" expr ")"
 static Node *primary()
 {
@@ -227,17 +247,36 @@ static Node *primary()
     expect(")");
     return node;
   }
-
-  Token *tok = consume_ident(); 
+  // 変数(ident)の場合
+  Token *tok = consume_ident();
   if (tok)
   {
     Node *node = calloc(1, sizeof(Node));
     node->kind = ND_LVAR;
-    //文字コードからaから何文字先かを求めてそれに8byte掛けて、オフセットを計算
-    node->offset = (tok->str[0] - 'a'+1) * 8; 
+
+    LVar *lvar = find_lvar(tok);
+    if (lvar) //既に出現していた変数の場合はその変数のoffsetを使う
+    {
+      node->offset = lvar->offset;
+    }
+    else //新たな変数の場合
+    {
+      // 新しいLVarを作る
+      lvar = calloc(1, sizeof(LVar));
+      lvar->next = locals;
+      lvar->name = tok->str;
+      lvar->len = tok->len;
+      lvar->offset = locals->offset +8; //TODO:ここでsegumentationフォールと起こったことを書く
+      node->offset = lvar-> offset;
+      locals = lvar; //lvarのアドレスをlocalsへコピー
+
+      // TODO: localsの連結リストを作っていく流れがよくわからない。next=NULLになっている感じがしない。
+      // 最後に出てきた変数のnextはlocalsを指していそう。ただ、localsのnextはNULLじゃなさそう
+    }
+
     return node;
   }
-  
+
   // （）でもidentでもなければ数値のはず
   return new_num(expect_number());
 }

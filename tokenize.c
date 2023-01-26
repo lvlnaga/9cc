@@ -10,7 +10,7 @@ static Token *new_token(TokenKind kind, Token *cur, char *str, int len)
   cur->next = tok;
 
   #ifdef DEBUG
-    fprintf(stderr, "add new token. kind=> %d, str=> %s \n", kind ,str);
+    fprintf(stderr, "add new token. kind=> %d, str=> %s, len=> %d,\n", kind ,str, len);
   #endif
 
   return tok;
@@ -68,14 +68,25 @@ Token *tokenize()
 
     // Identifier
     // a-zをトークナイズ
+    // 複数の文字からなる識別子をTK_IDENT型のトークンとして読み込む
     if ('a' <= *p && *p <= 'z')
     {
-      cur = new_token(TK_IDENT, cur, p++, 1);
+      char *begin = p; //変数の開始地点
+      while (('a' <= *p && *p <= 'z') || isdigit(*p))
+      // 一文字目がa-zのためここでisdigit()も確認することで`foo1`みたいな変数も扱えるようにする
+      {
+        p++;
+      }
+      int len = p - begin; 
+      // char *str;
+      // strncpy(str,begin,len);// 文字列を取得
+      // TODO: これでよいのかなぞ。
+      cur = new_token(TK_IDENT, cur, begin, len);
+
+
       continue;
     }
     
-
-
     error_at(p, "トークナイズできません");
   }
 
