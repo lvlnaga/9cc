@@ -87,10 +87,9 @@ static LVar *find_lvar(Token *tok)
   for (LVar *var = locals; var; var = var->next)
   {
     if (var->len == tok->len && !memcmp(tok->str, var->name, var->len))
-    // TODO: memcmpのところ何やっているか理解する
-    // たぶん...memcmpはメモリ比較だから、トークンの文字とvarの文字が一致しているかをチェックしている
+    // memcmpはメモリ比較、トークンの文字とvarの文字が一致しているかをチェックしている
     {
-      // すでにlocalsに登録されている場合はその変数を返す。
+      // すでにlocalsに登録されている場合はその変数のアドレスを返す。
 #ifdef DEBUG      
       fprintf(stderr, "lvar is found \n");
 #endif      
@@ -275,7 +274,7 @@ static Node *primary()
       lvar->len = tok->len;
       lvar->offset = locals->offset +8; //TODO:ここでsegumentationフォールと起こったことを書く
       node->offset = lvar-> offset;
-      locals = lvar; //lvarのアドレスをlocalsへコピー
+      locals = lvar; //localsを今追加した変数を指すように更新
 
 #ifdef DEBUG
       fprintf(stderr, "-------locals post------------\n");
