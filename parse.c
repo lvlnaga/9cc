@@ -261,6 +261,13 @@ static Node *primary()
     }
     else //新たな変数の場合
     {
+#ifdef DEBUG
+      fprintf(stderr, "-------locals pre------------\n");
+      fprintf(stderr, "locals: %p\n",locals);
+      fprintf(stderr, "locals->next: %p\n",locals->next);
+      fprintf(stderr, "locals->tok: %s\n",locals->name);
+      fprintf(stderr, "locals->offset: %d\n",locals->offset);
+#endif
       // 新しいLVarを作る
       lvar = calloc(1, sizeof(LVar));
       lvar->next = locals;
@@ -270,6 +277,13 @@ static Node *primary()
       node->offset = lvar-> offset;
       locals = lvar; //lvarのアドレスをlocalsへコピー
 
+#ifdef DEBUG
+      fprintf(stderr, "-------locals post------------\n");
+      fprintf(stderr, "locals: %p\n",locals);
+      fprintf(stderr, "locals->next: %p\n",locals->next);
+      fprintf(stderr, "locals->tok: %s\n",locals->name);
+      fprintf(stderr, "locals->offset: %d\n",locals->offset);
+#endif
       // TODO: localsの連結リストを作っていく流れがよくわからない。next=NULLになっている感じがしない。
       // 最後に出てきた変数のnextはlocalsを指していそう。ただ、localsのnextはNULLじゃなさそう
     }

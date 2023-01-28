@@ -26,7 +26,7 @@ void error_at(char *loc, char *fmt, ...)
   exit(1);
 }
 
-LVar *dummy_lvar() {
+LVar *init_lvar() {
   LVar *var = calloc(1, sizeof(LVar));
   var->next = NULL;
   var->offset = 0;
@@ -43,10 +43,11 @@ int main(int argc, char **argv)
   // 結果はcodeに保存される
   user_input = argv[1];
 
-  // ローカル変数の初期化
-  locals = dummy_lvar();
+  // ローカル変数の初期化(空のLVar変数を用意する)
+  locals = init_lvar();
 
-  token = tokenize(); // お手本はtokenize()のreturnが内容になっているが、ここは実装を変えない
+  // お手本はtokenize()のreturnが無いが、ここは実装を変えない
+  token = tokenize(); 
   program();
 
   // アセンブリ前半部分を出力
