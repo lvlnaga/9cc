@@ -26,6 +26,19 @@ static Token *consume_ident()
   return ret;
 }
 
+
+// 次のトークンがreturnのときには、トークンを１つ読み進めて
+// Trueをかえす。それ以外の場合はFalseを返す。
+static bool consume_return()
+{
+  if (token->kind != TK_RETURN)
+    return false; // 期待するトークンと不一致(変数でなければ)の場合はNULL
+  // tokenを次にconsumeする
+  token = token->next;
+  return true;
+}
+
+
 // 次のトークンが期待している記号のときには、トークンを１つ読み進める。
 // それ以外の場合にはエラーを報告する。
 static void expect(char *op)
@@ -90,15 +103,15 @@ static LVar *find_lvar(Token *tok)
     // memcmpはメモリ比較、トークンの文字とvarの文字が一致しているかをチェックしている
     {
       // すでにlocalsに登録されている場合はその変数のアドレスを返す。
-#ifdef DEBUG      
+#ifdef DEBUG
       fprintf(stderr, "lvar is found \n");
-#endif      
+#endif
       return var;
     }
   }
-#ifdef DEBUG      
-      fprintf(stderr, "lvar is not found \n");
-#endif      
+#ifdef DEBUG
+  fprintf(stderr, "lvar is not found \n");
+#endif
 
   return NULL;
 }
@@ -136,9 +149,22 @@ void *program()
 }
 
 // stmt       = expr ";"
+// stmt    = expr ";"
+//         | "return" expr ";"
 static Node *stmt()
 {
-  Node *node = expr();
+  Node *node;
+
+  if (consume_return())
+  {
+    node = calloc(1, sizeof(Node));
+    node->kind = ND_RETURN;
+    node->lhs = expr();
+  }
+  else
+  {
+    node = expr();
+  }
   expect(";");
   return node;
 }
@@ -254,37 +280,35 @@ static Node *primary()
     node->kind = ND_LVAR;
 
     LVar *lvar = find_lvar(tok);
-    if (lvar) //既に出現していた変数の場合はその変数のoffsetを使う
+    if (lvar) // 既に出現していた変数の場合はその変数のoffsetを使う
     {
       node->offset = lvar->offset;
     }
-    else //新たな変数の場合
+    else // 新たな変数の場合
     {
 #ifdef DEBUG
       fprintf(stderr, "-------locals pre------------\n");
-      fprintf(stderr, "locals: %p\n",locals);
-      fprintf(stderr, "locals->next: %p\n",locals->next);
-      fprintf(stderr, "locals->tok: %s\n",locals->name);
-      fprintf(stderr, "locals->offset: %d\n",locals->offset);
+      fprintf(stderr, "locals: %p\n", locals);
+      fprintf(stderr, "locals->next: %p\n", locals->next);
+      fprintf(stderr, "locals->tok: %s\n", locals->name);
+      fprintf(stderr, "locals->offset: %d\n", locals->offset);
 #endif
       // 新しいLVarを作る
       lvar = calloc(1, sizeof(LVar));
       lvar->next = locals;
       lvar->name = tok->str;
       lvar->len = tok->len;
-      lvar->offset = locals->offset +8; //TODO:ここでsegumentationフォールと起こったことを書く
-      node->offset = lvar-> offset;
-      locals = lvar; //localsを今追加した変数を指すように更新
+      lvar->offset = locals->offset + 8;
+      node->offset = lvar->offset;
+      locals = lvar; // localsを今追加した変数を指すように更新
 
 #ifdef DEBUG
       fprintf(stderr, "-------locals post------------\n");
-      fprintf(stderr, "locals: %p\n",locals);
-      fprintf(stderr, "locals->next: %p\n",locals->next);
-      fprintf(stderr, "locals->tok: %s\n",locals->name);
-      fprintf(stderr, "locals->offset: %d\n",locals->offset);
+      fprintf(stderr, "locals: %p\n", locals);
+      fprintf(stderr, "locals->next: %p\n", locals->next);
+      fprintf(stderr, "locals->tok: %s\n", locals->name);
+      fprintf(stderr, "locals->offset: %d\n", locals->offset);
 #endif
-      // TODO: localsの連結リストを作っていく流れがよくわからない。next=NULLになっている感じがしない。
-      // 最後に出てきた変数のnextはlocalsを指していそう。ただ、localsのnextはNULLじゃなさそう
     }
 
     return node;

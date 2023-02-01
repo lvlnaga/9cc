@@ -19,6 +19,16 @@ void gen(Node *node)
   // 左辺の評価
   switch (node->kind)
   {
+  case ND_RETURN:
+    gen(node->lhs);
+    printf("  pop rax\n");        // スタックに積まれているローカル変数のアドレスをpop
+    printf("  mov rsp, rbp\n"); 
+    printf("  pop rbp\n");
+    printf("  ret\n");
+    return;
+  
+  
+  
   case ND_NUM:
     printf("  push %d\n", node->val);
     return;

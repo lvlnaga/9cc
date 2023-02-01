@@ -48,6 +48,11 @@ int main(int argc, char **argv)
 
   // お手本はtokenize()のreturnが無いが、ここは実装を変えない
   token = tokenize(); 
+
+#ifdef DEBUG
+  token_preview(token);
+#endif
+
   program();
 
   // アセンブリ前半部分を出力

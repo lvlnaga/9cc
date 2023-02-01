@@ -9,7 +9,7 @@
 #include <string.h>
 
 // For Debug
-// #define DEBUG
+//#define DEBUG
 
 //
 // tokenize.c
@@ -21,6 +21,7 @@ typedef enum
   TK_RESERVED, // 記号
   TK_IDENT,    // 識別子(変数)
   TK_NUM,      // 整数トークン
+  TK_RETURN,   // return
   TK_EOF,      // 入力の終わりを表すトークン
 } TokenKind;
 
@@ -50,6 +51,7 @@ struct LVar
 void error(char *fmt, ...);
 void error_at(char *loc, char *fmt, ...);
 Token *tokenize();
+void token_preview();
 
 //
 // parse.c
@@ -68,7 +70,8 @@ typedef enum
   ND_LT,     // <
   ND_LE,     // <=
   ND_LVAR,   // ローカル変数
-  ND_NUM     // 整数
+  ND_NUM,    // 整数
+  ND_RETURN  // return
 } NodeKind;
 
 // 抽象構文木のノードの型

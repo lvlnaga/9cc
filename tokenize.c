@@ -1,5 +1,29 @@
 #include "9cc.h"
 
+// トークナイズした結果を出力する
+void token_preview(Token *start)
+{
+  Token *cur = start;
+  fprintf(stderr, ".... start preview tokens ....\n");
+  for (Token start; cur; cur = cur->next)
+  {
+    char c[100];
+    memset(c, '\0', sizeof(c));
+    memcpy(c,cur->str,cur->len);
+    fprintf(stderr, " kind=> %d, str=> %s,\n", cur->kind, c);
+  }
+  fprintf(stderr, ".... finish!! ....\n");
+}
+
+// 与えられた文字がトークンを構成する文字(英数字orアンダースコア)かを判定
+static int is_alunum(char c)
+{
+  return ('a' <= c && c <= 'z') ||
+         ('A' <= c && c <= 'Z') ||
+         ('0' <= c && c <= '9') ||
+         (c == '_');
+}
+
 // 新しいトークンを作成してcurに繋げる
 static Token *new_token(TokenKind kind, Token *cur, char *str, int len)
 {
@@ -9,9 +33,9 @@ static Token *new_token(TokenKind kind, Token *cur, char *str, int len)
   tok->len = len;
   cur->next = tok;
 
-  #ifdef DEBUG
-    fprintf(stderr, "add new token. kind=> %d, str=> %s, len=> %d,\n", kind ,str, len);
-  #endif
+#ifdef DEBUG
+  fprintf(stderr, "add new token. kind=> %d, str=> %s, len=> %d,\n", kind, str, len);
+#endif
 
   return tok;
 }
@@ -37,6 +61,14 @@ Token *tokenize()
     if (isspace(*p))
     {
       p++;
+      continue;
+    }
+
+    // returnをトークナイズ
+    if (strncmp(p, "return", 6) == 0 && !is_alunum(p[6]))
+    {
+      cur = new_token(TK_RETURN, cur, p, 6);
+      p += 6;
       continue;
     }
 
@@ -69,24 +101,18 @@ Token *tokenize()
     // Identifier
     // a-zをトークナイズ
     // 複数の文字からなる識別子をTK_IDENT型のトークンとして読み込む
-    if ('a' <= *p && *p <= 'z')
+    if (is_alunum(*p))
     {
-      char *begin = p; //変数の開始地点
-      while (('a' <= *p && *p <= 'z') || isdigit(*p))
-      // 一文字目がa-zのためここでisdigit()も確認することで`foo1`みたいな変数も扱えるようにする
+      char *begin = p; // 変数の開始地点
+      while (is_alunum(*p))
       {
         p++;
       }
-      int len = p - begin; 
-      // char *str;
-      // strncpy(str,begin,len);// 文字列を取得
-      // TODO: これでよいのかなぞ。
+      int len = p - begin;
       cur = new_token(TK_IDENT, cur, begin, len);
-
-
       continue;
     }
-    
+
     error_at(p, "トークナイズできません");
   }
 

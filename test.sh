@@ -55,4 +55,9 @@ assert 5 'bar = 2 + 3; bar;'
 assert 6 'foo = 1; bar = 2 + 3; foo+bar;'
 assert 8 'foo123 = 3; bar = 2 + 3; foo123+bar;'
 
+#Support return
+assert 1 'foo = 1; return foo;'
+assert 14 'a = 3; b = 5 * 6 - 8; return a + b / 2;'
+assert 2 'return 2; return 3;'
+
 echo OK
