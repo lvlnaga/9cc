@@ -21,14 +21,11 @@ void gen(Node *node)
   {
   case ND_RETURN:
     gen(node->lhs);
-    printf("  pop rax\n");        // スタックに積まれているローカル変数のアドレスをpop
-    printf("  mov rsp, rbp\n"); 
+    printf("  pop rax\n"); // スタックに積まれているローカル変数のアドレスをpop
+    printf("  mov rsp, rbp\n");
     printf("  pop rbp\n");
     printf("  ret\n");
     return;
-  
-  
-  
   case ND_NUM:
     printf("  push %d\n", node->val);
     return;
@@ -42,7 +39,7 @@ void gen(Node *node)
     // nodeの値
     printf("  pop rax\n");        // スタックに積まれているローカル変数のアドレスをpop
     printf("  mov rax, [rax]\n"); // ローカル変数の値をraxへロード
-    printf("  push rax\n");        // ロードしてきた値をスタックに積む
+    printf("  push rax\n");       // ロードしてきた値をスタックに積む
     return;
   case ND_ASSIGN:
     gen_lval(node->lhs);

@@ -1,0 +1,1620 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1582px" height="2216px" viewBox="-0.5 -0.5 1582 2216" content="&lt;mxfile&gt;&lt;diagram id=&quot;WrD9oeYT9x9ktLPI0_ZF&quot; name=&quot;ページ1&quot;&gt;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&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs/>
+    <g>
+        <rect x="21" y="335" width="80" height="30" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 350px; margin-left: 61px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">
+                                ■生成規則
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="61" y="354" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    ■生成規則
+                </text>
+            </switch>
+        </g>
+        <rect x="396" y="335" width="50" height="30" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 350px; margin-left: 421px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">
+                                ■実装
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="421" y="354" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    ■実装
+                </text>
+            </switch>
+        </g>
+        <rect x="21" y="0" width="190" height="30" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 15px; margin-left: 116px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">
+                                ■前提：生成規則の記号の意味
+                                <br/>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="116" y="19" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    ■前提：生成規則の記号の意味
+                </text>
+            </switch>
+        </g>
+        <image x="60.5" y="34.5" width="290" height="186" xlink:href="data:image/png;base64,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" preserveAspectRatio="none"/>
+        <rect x="21" y="385" width="190" height="30" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 400px; margin-left: 116px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">
+                                <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: &quot;Source Han Code JP&quot;, Consolas, &quot;Courier New&quot;, monospace; font-size: 14px; line-height: 19px;">
+                                    <span style="color: #6a9955;">
+                                        program    = stmt*
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="116" y="404" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    program    = stmt*
+                </text>
+            </switch>
+        </g>
+        <rect x="401" y="365" width="900" height="170" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe flex-start; width: 1px; height: 1px; padding-top: 450px; margin-left: 403px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">
+                                <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: &quot;Source Han Code JP&quot;, Consolas, &quot;Courier New&quot;, monospace; font-size: 14px; line-height: 19px;">
+                                    <div>
+                                        <span style="color: #569cd6;">
+                                            void
+                                        </span>
+                                        *
+                                        <span style="color: #dcdcaa;">
+                                            program
+                                        </span>
+                                        ()
+                                    </div>
+                                    <div>
+                                        {
+                                    </div>
+                                    <div>
+                                        <span style="color: #569cd6;">
+                                            int
+                                        </span>
+                                        <span style="color: #9cdcfe;">
+                                            i
+                                        </span>
+                                        =
+                                        <span style="color: #b5cea8;">
+                                            0
+                                        </span>
+                                        ;
+                                    </div>
+                                    <div>
+                                        <span style="color: #c586c0;">
+                                            while
+                                        </span>
+                                        (!
+                                        <span style="color: #dcdcaa;">
+                                            at_eof
+                                        </span>
+                                        ())
+                                    </div>
+                                    <div>
+                                        <span style="color: #9cdcfe;">
+                                            code
+                                        </span>
+                                        [
+                                        <span style="color: #9cdcfe;">
+                                            i
+                                        </span>
+                                        ++] =
+                                        <span style="color: #dcdcaa;">
+                                            stmt
+                                        </span>
+                                        ();
+                                    </div>
+                                    <div>
+                                        <span style="color: #9cdcfe;">
+                                            code
+                                        </span>
+                                        [
+                                        <span style="color: #9cdcfe;">
+                                            i
+                                        </span>
+                                        ] =
+                                        <span style="color: #569cd6;">
+                                            NULL
+                                        </span>
+                                        ;
+                                        <span style="color: #6a9955;">
+                                            // ここで末尾にNULLを入れているから, mainのコード生成のfor文の終了条件判定がcode[i]でOKなのか
+                                        </span>
+                                    </div>
+                                    <div>
+                                        }
+                                    </div>
+                                    <br/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="403" y="454" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px">
+                    void *program()...
+                </text>
+            </switch>
+        </g>
+        <path d="M 643.5 410 L 626 410 C 623.24 410 621 407.76 621 405 L 621 290 C 621 287.24 623.24 285 626 285 L 956 285 C 958.76 285 961 287.24 961 290 L 961 405 C 961 407.76 958.76 410 956 410 L 658.5 410 C 655.54 417.77 646.79 423.6 636 425 C 639.89 422.15 642.68 416.57 643.5 410 Z" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 338px; height: 1px; padding-top: 348px; margin-left: 622px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                whileで
+                                <br/>
+                                stmt *
+                                <br/>
+                                を表現している
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="791" y="351" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    whileで...
+                </text>
+            </switch>
+        </g>
+        <rect x="1051" y="965" width="530" height="210" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 528px; height: 1px; padding-top: 972px; margin-left: 1053px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: &quot;Source Han Code JP&quot;, Consolas, &quot;Courier New&quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;">
+                                    <br/>
+                                    <div>
+                                        <span style="color: #6a9955;">
+                                            // ノード作成関数for2項演算子
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #4ec9b0;">
+                                            Node
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            *
+                                        </span>
+                                        <span style="color: #dcdcaa;">
+                                            new_binary
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            (
+                                        </span>
+                                        <span style="color: #4ec9b0;">
+                                            NodeKind
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #9cdcfe;">
+                                            kind
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ,
+                                        </span>
+                                        <span style="color: #4ec9b0;">
+                                            Node
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            *
+                                        </span>
+                                        <span style="color: #9cdcfe;">
+                                            lhs
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ,
+                                        </span>
+                                        <span style="color: #4ec9b0;">
+                                            Node
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            *
+                                        </span>
+                                        <span style="color: #9cdcfe;">
+                                            rhs
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            )
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                            {
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #4ec9b0;">
+                                            Node
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            *
+                                        </span>
+                                        <span style="color: #9cdcfe;">
+                                            node
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            =
+                                        </span>
+                                        <span style="color: #dcdcaa;">
+                                            new_node
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            (
+                                        </span>
+                                        <span style="color: #9cdcfe;">
+                                            kind
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            );
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #9cdcfe;">
+                                            node
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            -&gt;
+                                        </span>
+                                        <span style="color: #9cdcfe;">
+                                            kind
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            =
+                                        </span>
+                                        <span style="color: #9cdcfe;">
+                                            kind
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ;
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #9cdcfe;">
+                                            node
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            -&gt;
+                                        </span>
+                                        <span style="color: #9cdcfe;">
+                                            lhs
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            =
+                                        </span>
+                                        <span style="color: #9cdcfe;">
+                                            lhs
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ;
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #9cdcfe;">
+                                            node
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            -&gt;
+                                        </span>
+                                        <span style="color: #9cdcfe;">
+                                            rhs
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            =
+                                        </span>
+                                        <span style="color: #9cdcfe;">
+                                            rhs
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ;
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #c586c0;">
+                                            return
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #9cdcfe;">
+                                            node
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ;
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                            }
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1053" y="984" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px">
+                    // ノード作成関数for2項演算子...
+                </text>
+            </switch>
+        </g>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 558px; height: 1px; padding-top: 1842px; margin-left: 593px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: normal; overflow-wrap: normal;">
+                                <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: &quot;Source Han Code JP&quot;, Consolas, &quot;Courier New&quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;">
+                                    <div>
+                                        <span style="color: #569cd6;">
+                                            static
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #4ec9b0;">
+                                            Node
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            *
+                                        </span>
+                                        <span style="color: #dcdcaa;">
+                                            relational
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ()
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                            {
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #4ec9b0;">
+                                            Node
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            *
+                                        </span>
+                                        <span style="color: #9cdcfe;">
+                                            node
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            =
+                                        </span>
+                                        <span style="color: #dcdcaa;">
+                                            add
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ();
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #c586c0;">
+                                            for
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            (;;)
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                            {
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #c586c0;">
+                                            if
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            (
+                                        </span>
+                                        <span style="color: #dcdcaa;">
+                                            consume
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            (
+                                        </span>
+                                        <span style="color: #ce9178;">
+                                            "&lt;"
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ))
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #9cdcfe;">
+                                            node
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            =
+                                        </span>
+                                        <span style="color: #dcdcaa;">
+                                            new_binary
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            (
+                                        </span>
+                                        <span style="color: #4fc1ff;">
+                                            ND_LT
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ,
+                                        </span>
+                                        <span style="color: #9cdcfe;">
+                                            node
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ,
+                                        </span>
+                                        <span style="color: #dcdcaa;">
+                                            add
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ());
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #c586c0;">
+                                            else
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #c586c0;">
+                                            if
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            (
+                                        </span>
+                                        <span style="color: #dcdcaa;">
+                                            consume
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            (
+                                        </span>
+                                        <span style="color: #ce9178;">
+                                            "&lt;="
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ))
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #9cdcfe;">
+                                            node
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            =
+                                        </span>
+                                        <span style="color: #dcdcaa;">
+                                            new_binary
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            (
+                                        </span>
+                                        <span style="color: #4fc1ff;">
+                                            ND_LE
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ,
+                                        </span>
+                                        <span style="color: #9cdcfe;">
+                                            node
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ,
+                                        </span>
+                                        <span style="color: #dcdcaa;">
+                                            add
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ());
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #c586c0;">
+                                            else
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #c586c0;">
+                                            if
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            (
+                                        </span>
+                                        <span style="color: #dcdcaa;">
+                                            consume
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            (
+                                        </span>
+                                        <span style="color: #ce9178;">
+                                            "&gt;"
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ))
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #9cdcfe;">
+                                            node
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            =
+                                        </span>
+                                        <span style="color: #dcdcaa;">
+                                            new_binary
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            (
+                                        </span>
+                                        <span style="color: #4fc1ff;">
+                                            ND_LT
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ,
+                                        </span>
+                                        <span style="color: #dcdcaa;">
+                                            add
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            (),
+                                        </span>
+                                        <span style="color: #9cdcfe;">
+                                            node
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            );
+                                        </span>
+                                        <span style="color: #6a9955;">
+                                            // "&lt;" へ変換し 左右項をひっくり返している
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #c586c0;">
+                                            else
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #c586c0;">
+                                            if
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            (
+                                        </span>
+                                        <span style="color: #dcdcaa;">
+                                            consume
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            (
+                                        </span>
+                                        <span style="color: #ce9178;">
+                                            "&gt;="
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ))
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #9cdcfe;">
+                                            node
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            =
+                                        </span>
+                                        <span style="color: #dcdcaa;">
+                                            new_binary
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            (
+                                        </span>
+                                        <span style="color: #4fc1ff;">
+                                            ND_LE
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ,
+                                        </span>
+                                        <span style="color: #dcdcaa;">
+                                            add
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            (),
+                                        </span>
+                                        <span style="color: #9cdcfe;">
+                                            node
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            );
+                                        </span>
+                                        <span style="color: #6a9955;">
+                                            // "&lt;=" へ変換し 左右項をひっくり返している
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #c586c0;">
+                                            else
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #c586c0;">
+                                            return
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #9cdcfe;">
+                                            node
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ;
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                            }
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                            }
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="593" y="1854" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px">
+                    static Node *relational()...
+                </text>
+            </switch>
+        </g>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 558px; height: 1px; padding-top: 1792px; margin-left: 11px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: normal; overflow-wrap: normal;">
+                                <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: &quot;Source Han Code JP&quot;, Consolas, &quot;Courier New&quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;">
+                                    <div>
+                                        <span style="color: #6a9955;">
+                                            relational = add ("&lt;" add | "&lt;=" add | "&gt;" add | "&gt;=" add)*
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="11" y="1804" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px">
+                    relational = add ("&lt;" add | "&lt;=" add | "&gt;" add | "&gt;=" add)*
+                </text>
+            </switch>
+        </g>
+        <rect x="130" y="1789" width="36" height="23" rx="3.45" ry="3.45" fill="none" stroke="#d6b656" stroke-width="3" pointer-events="none"/>
+        <rect x="609" y="1882" width="183" height="17" rx="2.55" ry="2.55" fill="none" stroke="#d6b656" stroke-width="3" pointer-events="none"/>
+        <path d="M 148 1812 L 148 1881.14 Q 148 1891.14 158 1891.14 L 378 1891.14 Q 388 1891.14 398 1891.11 L 600.76 1890.52" fill="none" stroke="#d6b656" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 606.76 1890.51 L 598.78 1894.53 L 600.76 1890.52 L 598.75 1886.53 Z" fill="#d6b656" stroke="#d6b656" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <rect x="608.5" y="1901" width="81.5" height="36" rx="5.4" ry="5.4" fill="none" stroke="#6c8ebf" stroke-width="3" pointer-events="none"/>
+        <rect x="609" y="2165" width="81.5" height="20" rx="3" ry="3" fill="none" stroke="#6c8ebf" stroke-width="3" pointer-events="none"/>
+        <path d="M 560.86 1812 L 560.86 1909.14 Q 560.86 1919.14 570.86 1919.11 L 600.26 1919.02" fill="none" stroke="#6c8ebf" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 606.26 1919.01 L 598.28 1923.03 L 600.26 1919.02 L 598.25 1915.03 Z" fill="#6c8ebf" stroke="#6c8ebf" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <rect x="550" y="1789" width="17" height="23" rx="2.55" ry="2.55" fill="none" stroke="#6c8ebf" stroke-width="3" pointer-events="none"/>
+        <path d="M 562.75 1812 L 560.91 2165.14 Q 560.86 2175.14 570.86 2175.11 L 600.76 2175.02" fill="none" stroke="#6c8ebf" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 606.76 2175.01 L 598.78 2179.03 L 600.76 2175.02 L 598.75 2171.03 Z" fill="#6c8ebf" stroke="#6c8ebf" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1405px; margin-left: 306px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: nowrap;">
+                                <br/>
+                                <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: &quot;Source Han Code JP&quot;, Consolas, &quot;Courier New&quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;">
+                                    <div>
+                                        <span style="color: #6a9955;">
+                                            // equality   = relational ("==" relational | "!=" relational)*
+                                        </span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <br/>
+                                </div>
+                                <div>
+                                    <br/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="306" y="1409" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    // equality   = relational ("==" relational | "!=" relational)*...
+                </text>
+            </switch>
+        </g>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 508px; height: 1px; padding-top: 1392px; margin-left: 763px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: normal; overflow-wrap: normal;">
+                                <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: &quot;Source Han Code JP&quot;, Consolas, &quot;Courier New&quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;">
+                                    <div>
+                                        <span style="color: #569cd6;">
+                                            static
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #4ec9b0;">
+                                            Node
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            *
+                                        </span>
+                                        <span style="color: #dcdcaa;">
+                                            equality
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ()
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                            {
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #4ec9b0;">
+                                            Node
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            *
+                                        </span>
+                                        <span style="color: #9cdcfe;">
+                                            node
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            =
+                                        </span>
+                                        <span style="color: #dcdcaa;">
+                                            relational
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ();
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #c586c0;">
+                                            for
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            (;;)
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                            {
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #c586c0;">
+                                            if
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            (
+                                        </span>
+                                        <span style="color: #dcdcaa;">
+                                            consume
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            (
+                                        </span>
+                                        <span style="color: #ce9178;">
+                                            "=="
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ))
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #9cdcfe;">
+                                            node
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            =
+                                        </span>
+                                        <span style="color: #dcdcaa;">
+                                            new_binary
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            (
+                                        </span>
+                                        <span style="color: #4fc1ff;">
+                                            ND_EQ
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ,
+                                        </span>
+                                        <span style="color: #9cdcfe;">
+                                            node
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ,
+                                        </span>
+                                        <span style="color: #dcdcaa;">
+                                            relational
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ());
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #c586c0;">
+                                            else
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #c586c0;">
+                                            if
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            (
+                                        </span>
+                                        <span style="color: #dcdcaa;">
+                                            consume
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            (
+                                        </span>
+                                        <span style="color: #ce9178;">
+                                            "!="
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ))
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #9cdcfe;">
+                                            node
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            =
+                                        </span>
+                                        <span style="color: #dcdcaa;">
+                                            new_binary
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            (
+                                        </span>
+                                        <span style="color: #4fc1ff;">
+                                            ND_NE
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ,
+                                        </span>
+                                        <span style="color: #9cdcfe;">
+                                            node
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ,
+                                        </span>
+                                        <span style="color: #dcdcaa;">
+                                            relational
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ());
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #c586c0;">
+                                            else
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #c586c0;">
+                                            return
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #9cdcfe;">
+                                            node
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ;
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                            }
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                            }
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="763" y="1404" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px">
+                    static Node *equality()...
+                </text>
+            </switch>
+        </g>
+        <rect x="157" y="1387" width="100" height="24" rx="3.6" ry="3.6" fill="none" stroke="#d79b00" stroke-width="2" pointer-events="none"/>
+        <rect x="779" y="1430" width="247" height="20" rx="3" ry="3" fill="none" stroke="#d79b00" stroke-width="2" pointer-events="none"/>
+        <path d="M 207 1411 L 207 1430 Q 207 1440 217 1440 L 770.76 1440" fill="none" stroke="#d6b656" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 776.76 1440 L 768.76 1444 L 770.76 1440 L 768.76 1436 Z" fill="#d6b656" stroke="#d6b656" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <rect x="582" y="1387" width="22" height="23" rx="3.3" ry="3.3" fill="none" stroke="#b85450" stroke-width="2" pointer-events="none"/>
+        <rect x="260" y="1387" width="13" height="23" rx="1.95" ry="1.95" fill="none" stroke="#b85450" stroke-width="2" pointer-events="none"/>
+        <rect x="779" y="1450" width="82" height="38" rx="5.7" ry="5.7" fill="none" stroke="#b85450" stroke-width="2" pointer-events="none"/>
+        <rect x="776" y="1601" width="25" height="20" rx="3" ry="3" fill="none" stroke="#b85450" stroke-width="2" pointer-events="none"/>
+        <rect x="601" y="1345" width="170" height="30" fill="#f8cecc" stroke="#b85450" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1360px; margin-left: 686px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: nowrap;">
+                                「*」の繰り返しはforループ
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="686" y="1364" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    「*」の繰り返しはforループ
+                </text>
+            </switch>
+        </g>
+        <rect x="419" y="1387" width="19" height="23" rx="2.85" ry="2.85" fill="none" stroke="#6c8ebf" stroke-width="2" pointer-events="none"/>
+        <rect x="799.5" y="1486" width="23" height="23" rx="3.45" ry="3.45" fill="none" stroke="#6c8ebf" stroke-width="2" pointer-events="none"/>
+        <rect x="799.5" y="1523" width="69" height="23" rx="3.45" ry="3.45" fill="none" stroke="#6c8ebf" stroke-width="2" pointer-events="none"/>
+        <rect x="274" y="1387" width="141" height="23" rx="3.45" ry="3.45" fill="none" stroke="#9673a6" stroke-width="2" pointer-events="none"/>
+        <rect x="440" y="1387.5" width="141" height="23" rx="3.45" ry="3.45" fill="none" stroke="#82b366" stroke-width="2" pointer-events="none"/>
+        <rect x="832" y="1486" width="405" height="39" rx="5.85" ry="5.85" fill="none" stroke="#9673a6" stroke-width="2" pointer-events="none"/>
+        <rect x="871" y="1527" width="405" height="39" rx="5.85" ry="5.85" fill="none" stroke="#82b366" stroke-width="2" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 388px; height: 1px; padding-top: 1111px; margin-left: 23px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: normal; overflow-wrap: normal;">
+                                <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: &quot;Source Han Code JP&quot;, Consolas, &quot;Courier New&quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;">
+                                    <div>
+                                        <span style="color: #6a9955;">
+                                            // assign     = equality ("=" assign)?
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="23" y="1123" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px">
+                    // assign     = equality ("=" assign)?
+                </text>
+            </switch>
+        </g>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 488px; height: 1px; padding-top: 1111px; margin-left: 527px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: normal; overflow-wrap: normal;">
+                                <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: &quot;Source Han Code JP&quot;, Consolas, &quot;Courier New&quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;">
+                                    <div>
+                                        <span style="color: #569cd6;">
+                                            static
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #4ec9b0;">
+                                            Node
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            *
+                                        </span>
+                                        <span style="color: #dcdcaa;">
+                                            assign
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ()
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                            {
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #4ec9b0;">
+                                            Node
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            *
+                                        </span>
+                                        <span style="color: #9cdcfe;">
+                                            node
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            =
+                                        </span>
+                                        <span style="color: #dcdcaa;">
+                                            equality
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ();
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #c586c0;">
+                                            if
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            (
+                                        </span>
+                                        <span style="color: #dcdcaa;">
+                                            consume
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            (
+                                        </span>
+                                        <span style="color: #ce9178;">
+                                            "="
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ))
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #9cdcfe;">
+                                            node
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            =
+                                        </span>
+                                        <span style="color: #dcdcaa;">
+                                            new_binary
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            (
+                                        </span>
+                                        <span style="color: #4fc1ff;">
+                                            ND_ASSIGN
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ,
+                                        </span>
+                                        <span style="color: #9cdcfe;">
+                                            node
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ,
+                                        </span>
+                                        <span style="color: #dcdcaa;">
+                                            assign
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ());
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #c586c0;">
+                                            return
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #9cdcfe;">
+                                            node
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ;
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                            }
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="527" y="1123" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px">
+                    static Node *assign()...
+                </text>
+            </switch>
+        </g>
+        <rect x="170" y="1112" width="80" height="20" rx="3" ry="3" fill="none" stroke="#d79b00" stroke-width="2" pointer-events="none"/>
+        <rect x="539" y="1150" width="232" height="20" rx="3" ry="3" fill="none" stroke="#d79b00" stroke-width="2" pointer-events="none"/>
+        <path d="M 210 1132 L 210 1150 Q 210 1160 220 1160 L 530.76 1160" fill="none" stroke="#d6b656" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 536.76 1160 L 528.76 1164 L 530.76 1160 L 528.76 1156 Z" fill="#d6b656" stroke="#d6b656" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <rect x="368" y="1111" width="13" height="20" rx="1.95" ry="1.95" fill="none" stroke="#b85450" stroke-width="2" pointer-events="none"/>
+        <rect x="544" y="1168" width="25" height="20" rx="3" ry="3" fill="none" stroke="#b85450" stroke-width="2" pointer-events="none"/>
+        <path d="M 374.5 1131 L 374.5 1168 Q 374.5 1178 384.5 1178 L 535.76 1178" fill="none" stroke="#b85450" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 541.76 1178 L 533.76 1182 L 535.76 1178 L 533.76 1174 Z" fill="#b85450" stroke="#b85450" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <rect x="264" y="1111" width="33" height="20" rx="3" ry="3" fill="none" stroke="#6c8ebf" stroke-width="2" pointer-events="none"/>
+        <rect x="582.5" y="1171" width="111.5" height="15" rx="2.25" ry="2.25" fill="none" stroke="#6c8ebf" stroke-width="2" pointer-events="none"/>
+        <path d="M 280.5 1111 L 280.5 1085 Q 280.5 1075 290.5 1075 L 628.25 1075 Q 638.25 1075 638.25 1085 L 638.25 1162.76" fill="none" stroke="#6c8ebf" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 638.25 1168.76 L 634.25 1160.76 L 638.25 1162.76 L 642.25 1160.76 Z" fill="#6c8ebf" stroke="#6c8ebf" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <rect x="264" y="1188" width="220" height="40" fill="#f8cecc" stroke="#b85450" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1208px; margin-left: 374px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: nowrap;">
+                                「?」はあってもなくてもOKなので
+                                <br/>
+                                if文に対応
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="374" y="1212" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    「?」はあってもなくてもOKなので...
+                </text>
+            </switch>
+        </g>
+        <rect x="741" y="1224" width="220" height="40" fill="#e1d5e7" stroke="#9673a6" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1244px; margin-left: 851px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: nowrap;">
+                                ND_ASSIGNのノードを作って
+                                <br/>
+                                左辺に equality, 右辺に assignを設定
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="851" y="1248" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    ND_ASSIGNのノードを作って...
+                </text>
+            </switch>
+        </g>
+        <rect x="303" y="1111" width="57" height="20" rx="3" ry="3" fill="none" stroke="#9673a6" stroke-width="2" pointer-events="none"/>
+        <rect x="562" y="1188" width="419" height="20" rx="3" ry="3" fill="none" stroke="#9673a6" stroke-width="2" pointer-events="none"/>
+        <path d="M 331.5 1131 L 331.5 1188 Q 331.5 1198 341.5 1198 L 553.76 1198" fill="none" stroke="#9673a6" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 559.76 1198 L 551.76 1202 L 553.76 1198 L 551.76 1194 Z" fill="#9673a6" stroke="#9673a6" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 308px; height: 1px; padding-top: 662px; margin-left: 23px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: normal; overflow-wrap: normal;">
+                                <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: &quot;Source Han Code JP&quot;, Consolas, &quot;Courier New&quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;">
+                                    <div>
+                                        <span style="color: #6a9955;">
+                                            // stmt    = expr ";"
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #6a9955;">
+                                            //         | "return" expr ";"
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="23" y="674" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px">
+                    // stmt    = expr ";"...
+                </text>
+            </switch>
+        </g>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 358px; height: 1px; padding-top: 652px; margin-left: 417px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: normal; overflow-wrap: normal;">
+                                <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: &quot;Source Han Code JP&quot;, Consolas, &quot;Courier New&quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;">
+                                    <div>
+                                        <span style="color: #569cd6;">
+                                            static
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #4ec9b0;">
+                                            Node
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            *
+                                        </span>
+                                        <span style="color: #dcdcaa;">
+                                            stmt
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ()
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                            {
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #4ec9b0;">
+                                            Node
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            *
+                                        </span>
+                                        <span style="color: #9cdcfe;">
+                                            node
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ;
+                                        </span>
+                                    </div>
+                                    <br/>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #c586c0;">
+                                            if
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            (
+                                        </span>
+                                        <span style="color: #dcdcaa;">
+                                            consume_return
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ())
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                            {
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #9cdcfe;">
+                                            node
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            =
+                                        </span>
+                                        <span style="color: #dcdcaa;">
+                                            calloc
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            (
+                                        </span>
+                                        <span style="color: #b5cea8;">
+                                            1
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ,
+                                        </span>
+                                        <span style="color: #569cd6;">
+                                            sizeof
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            (
+                                        </span>
+                                        <span style="color: #4ec9b0;">
+                                            Node
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ));
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #9cdcfe;">
+                                            node
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            -&gt;
+                                        </span>
+                                        <span style="color: #9cdcfe;">
+                                            kind
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            =
+                                        </span>
+                                        <span style="color: #4fc1ff;">
+                                            ND_RETURN
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ;
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #9cdcfe;">
+                                            node
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            -&gt;
+                                        </span>
+                                        <span style="color: #9cdcfe;">
+                                            lhs
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            =
+                                        </span>
+                                        <span style="color: #dcdcaa;">
+                                            expr
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ();
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                            }
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #c586c0;">
+                                            else
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                            {
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #9cdcfe;">
+                                            node
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            =
+                                        </span>
+                                        <span style="color: #dcdcaa;">
+                                            expr
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ();
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                            }
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #dcdcaa;">
+                                            expect
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            (
+                                        </span>
+                                        <span style="color: #ce9178;">
+                                            ";"
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            );
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #c586c0;">
+                                            return
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                        </span>
+                                        <span style="color: #9cdcfe;">
+                                            node
+                                        </span>
+                                        <span style="color: #d4d4d4;">
+                                            ;
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #d4d4d4;">
+                                            }
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="417" y="664" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px">
+                    static Node *stmt()...
+                </text>
+            </switch>
+        </g>
+        <rect x="119" y="681" width="22" height="24" rx="3.3" ry="3.3" fill="none" stroke="#b85450" stroke-width="2" pointer-events="none"/>
+        <rect x="434" y="842" width="42" height="21" rx="3.15" ry="3.15" fill="none" stroke="#b85450" stroke-width="2" pointer-events="none"/>
+        <rect x="431" y="725" width="30" height="24" rx="3.6" ry="3.6" fill="none" stroke="#b85450" stroke-width="2" pointer-events="none"/>
+        <path d="M 130 705 L 130 725 Q 130 735 140 735 L 422.01 735" fill="none" stroke="#b85450" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 428.01 735 L 420.01 739 L 422.01 735 L 420.01 731 Z" fill="#b85450" stroke="#b85450" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 130 705 L 130 843 Q 130 853 140 853 L 425.76 853" fill="none" stroke="#b85450" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 431.76 853 L 423.76 857 L 425.76 853 L 423.76 849 Z" fill="#b85450" stroke="#b85450" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <rect x="21" y="795" width="160" height="30" fill="#f8cecc" stroke="#b85450" stroke-width="2" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 810px; margin-left: 101px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: nowrap;">
+                                文法「 | 」はif elseに対応
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="101" y="814" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    文法「 | 」はif elseに対応
+                </text>
+            </switch>
+        </g>
+        <rect x="190" y="664" width="30" height="19" rx="2.85" ry="2.85" fill="none" stroke="#6c8ebf" stroke-width="2" pointer-events="none"/>
+        <rect x="274" y="682" width="30" height="19" rx="2.85" ry="2.85" fill="none" stroke="#6c8ebf" stroke-width="2" pointer-events="none"/>
+        <rect x="431" y="919" width="116" height="19" rx="2.85" ry="2.85" fill="none" stroke="#6c8ebf" stroke-width="2" pointer-events="none"/>
+        <path d="M 220 673.5 L 220 915 Q 220 925 230 925 L 422.76 925" fill="none" stroke="#6c8ebf" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 428.76 925 L 420.76 929 L 422.76 925 L 420.76 921 Z" fill="#6c8ebf" stroke="#6c8ebf" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 289 701 L 289 915 Q 289 925 299 925 L 422.76 925" fill="none" stroke="#6c8ebf" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 428.76 925 L 420.76 929 L 422.76 925 L 420.76 921 Z" fill="#6c8ebf" stroke="#6c8ebf" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <rect x="21" y="865" width="270" height="40" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 885px; margin-left: 156px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: nowrap;">
+                                どっちも「;」で終わるからif else抜けたあとに
+                                <br/>
+                                consume(";")
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="156" y="889" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    どっちも「;」で終わるからif else抜けたあとに...
+                </text>
+            </switch>
+        </g>
+        <rect x="144" y="683" width="75" height="20" rx="3" ry="3" fill="none" stroke="#d79b00" stroke-width="2" pointer-events="none"/>
+        <rect x="472" y="727" width="150" height="23" rx="3.45" ry="3.45" fill="none" stroke="#d79b00" stroke-width="2" pointer-events="none"/>
+        <rect x="451" y="765" width="310" height="40" rx="6" ry="6" fill="none" stroke="#d79b00" stroke-width="2" pointer-events="none"/>
+        <path d="M 895 749 L 895 775 Q 895 785 885 785 L 769.24 785" fill="none" stroke="#d79b00" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 763.24 785 L 771.24 781 L 769.24 785 L 771.24 789 Z" fill="#d79b00" stroke="#d79b00" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <rect x="775" y="709" width="240" height="40" fill="#ffe6cc" stroke="#d79b00" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 729px; margin-left: 895px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: nowrap;">
+                                returnのノードがlhsにセットされるのは
+                                <br/>
+                                イマイチしっくり来ていない。
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="895" y="733" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    returnのノードがlhsにセットされるのは...
+                </text>
+            </switch>
+        </g>
+        <rect x="140" y="661" width="44" height="20" rx="3" ry="3" fill="none" stroke="#9673a6" stroke-width="2" pointer-events="none"/>
+        <rect x="224" y="682" width="44" height="20" rx="3" ry="3" fill="none" stroke="#9673a6" stroke-width="2" pointer-events="none"/>
+        <rect x="451" y="805" width="180" height="20" rx="3" ry="3" fill="none" stroke="#9673a6" stroke-width="2" pointer-events="none"/>
+        <path d="M 246 702 L 246 805 Q 246 815 256 815 L 442.76 815" fill="none" stroke="#9673a6" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 448.76 815 L 440.76 819 L 442.76 815 L 440.76 811 Z" fill="#9673a6" stroke="#9673a6" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <rect x="452" y="881" width="139" height="20" rx="3" ry="3" fill="none" stroke="#9673a6" stroke-width="2" pointer-events="none"/>
+        <path d="M 162 681 L 162 881 Q 162 891 172 891 L 443.76 891" fill="none" stroke="#9673a6" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 449.76 891 L 441.76 895 L 443.76 891 L 441.76 887 Z" fill="#9673a6" stroke="#9673a6" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Text is not SVG - cannot display
+            </text>
+        </a>
+    </switch>
+</svg>

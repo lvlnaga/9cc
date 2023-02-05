@@ -9,7 +9,7 @@ void token_preview(Token *start)
   {
     char c[100];
     memset(c, '\0', sizeof(c));
-    memcpy(c,cur->str,cur->len);
+    memcpy(c, cur->str, cur->len);
     fprintf(stderr, " kind=> %d, str=> %s,\n", cur->kind, c);
   }
   fprintf(stderr, ".... finish!! ....\n");

@@ -9,7 +9,7 @@
 #include <string.h>
 
 // For Debug
-//#define DEBUG
+#define DEBUG
 
 //
 // tokenize.c

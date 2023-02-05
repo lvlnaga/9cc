@@ -26,7 +26,8 @@ void error_at(char *loc, char *fmt, ...)
   exit(1);
 }
 
-LVar *init_lvar() {
+LVar *init_lvar()
+{
   LVar *var = calloc(1, sizeof(LVar));
   var->next = NULL;
   var->offset = 0;
@@ -47,7 +48,7 @@ int main(int argc, char **argv)
   locals = init_lvar();
 
   // お手本はtokenize()のreturnが無いが、ここは実装を変えない
-  token = tokenize(); 
+  token = tokenize();
 
 #ifdef DEBUG
   token_preview(token);
@@ -76,7 +77,7 @@ int main(int argc, char **argv)
     // はずなので、スタックが溢れないようにポップしておく
     printf("  pop rax\n");
   }
-  
+
   // エピローグ
   // 最後の式の結果がRAXに残っているのでそれが返り値になる
   printf("  mov rsp, rbp\n");

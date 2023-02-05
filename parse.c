@@ -26,7 +26,6 @@ static Token *consume_ident()
   return ret;
 }
 
-
 // 次のトークンがreturnのときには、トークンを１つ読み進めて
 // Trueをかえす。それ以外の場合はFalseを返す。
 static bool consume_return()
@@ -37,7 +36,6 @@ static bool consume_return()
   token = token->next;
   return true;
 }
-
 
 // 次のトークンが期待している記号のときには、トークンを１つ読み進める。
 // それ以外の場合にはエラーを報告する。

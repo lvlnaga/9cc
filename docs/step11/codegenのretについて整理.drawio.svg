@@ -1,0 +1,472 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1641px" height="1251px" viewBox="-0.5 -0.5 1641 1251" content="&lt;mxfile&gt;&lt;diagram id=&quot;111TW-DyaAgbVTBu4EG2&quot; name=&quot;ページ1&quot;&gt;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&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs/>
+    <g>
+        <rect x="10" y="10" width="1110" height="220" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 1102px; height: 1px; padding-top: 0px; margin-left: 15px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left; max-height: 230px; overflow: hidden;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                <h1>
+                                    ret複数出力について、テキストに書いてあること抜粋
+                                </h1>
+                                <div>
+                                    <br/>
+                                </div>
+                                <div>
+                                    <span style="color: rgb(34, 34, 34); font-family: &quot;Hiragino Kaku Gothic ProN W3&quot;, &quot;Hiragino Sans&quot;, arial; font-size: 16px; background-color: rgb(254, 254, 254);">
+                                        前章までに実装した機能では、関数の最後に必ず1つの
+                                    </span>
+                                    <code style="color: rgb(0, 0, 0); font-family: &quot;Oxygen Mono&quot;, Cousine, courier; font-size: 16px; background-color: rgb(254, 254, 254);">
+                                        ret
+                                    </code>
+                                    <span style="color: rgb(34, 34, 34); font-family: &quot;Hiragino Kaku Gothic ProN W3&quot;, &quot;Hiragino Sans&quot;, arial; font-size: 16px; background-color: rgb(254, 254, 254);">
+                                        命令を出力していました。この章で説明した方法で
+                                    </span>
+                                    <code style="color: rgb(0, 0, 0); font-family: &quot;Oxygen Mono&quot;, Cousine, courier; font-size: 16px; background-color: rgb(254, 254, 254);">
+                                        return
+                                    </code>
+                                    <span style="color: rgb(34, 34, 34); font-family: &quot;Hiragino Kaku Gothic ProN W3&quot;, &quot;Hiragino Sans&quot;, arial; font-size: 16px; background-color: rgb(254, 254, 254);">
+                                        文を実装すると、
+                                    </span>
+                                    <code style="color: rgb(0, 0, 0); font-family: &quot;Oxygen Mono&quot;, Cousine, courier; font-size: 16px; background-color: rgb(254, 254, 254);">
+                                        return
+                                    </code>
+                                    <span style="color: rgb(34, 34, 34); font-family: &quot;Hiragino Kaku Gothic ProN W3&quot;, &quot;Hiragino Sans&quot;, arial; font-size: 16px; background-color: rgb(254, 254, 254);">
+                                        文ごとにさらに余分な
+                                    </span>
+                                    <code style="color: rgb(0, 0, 0); font-family: &quot;Oxygen Mono&quot;, Cousine, courier; font-size: 16px; background-color: rgb(254, 254, 254);">
+                                        ret
+                                    </code>
+                                    <span style="color: rgb(34, 34, 34); font-family: &quot;Hiragino Kaku Gothic ProN W3&quot;, &quot;Hiragino Sans&quot;, arial; font-size: 16px; background-color: rgb(254, 254, 254);">
+                                        命令が出力されることになります。それらの命令はまとめることも可能ですが、ここでは簡単に実装するために、
+                                    </span>
+                                    <code style="color: rgb(0, 0, 0); font-family: &quot;Oxygen Mono&quot;, Cousine, courier; font-size: 16px; background-color: rgb(254, 254, 254);">
+                                        ret
+                                    </code>
+                                    <span style="color: rgb(34, 34, 34); font-family: &quot;Hiragino Kaku Gothic ProN W3&quot;, &quot;Hiragino Sans&quot;, arial; font-size: 16px; background-color: rgb(254, 254, 254);">
+                                        命令を複数出力してもかまわないということにしました。こういう細かいところは今の時点では気にしても仕方がないので、実装のシンプルさを優先することが大切です。難しいコードを書けるというのは役立つスキルですが、そもそもコードを難しくしすぎないというのは、時にはさらに役立つスキルなのです。
+                                    </span>
+                                    <br/>
+                                </div>
+                                <div>
+                                    <br/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="15" y="12" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px">
+                    ret複数出力について、テキストに書いてあること抜粋...
+                </text>
+            </switch>
+        </g>
+        <rect x="0" y="230" width="640" height="40" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe flex-start; width: 1px; height: 1px; padding-top: 250px; margin-left: 2px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">
+                                <span style="font-size: 20px;">
+                                    上記の文についてぱっと見、意味が腹落ちしなかったので整理する。
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="2" y="254" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px">
+                    上記の文についてぱっと見、意味が腹落ちしなかったので整理する。
+                </text>
+            </switch>
+        </g>
+        <rect x="10" y="340" width="280" height="60" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 370px; margin-left: 150px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 20px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">
+                                <div style="text-align: left;">
+                                    <span style="background-color: initial;">
+                                        return 2; return 3; =&gt; 2
+                                    </span>
+                                </div>
+                                <div style="text-align: left;">
+                                    <span style="background-color: initial;">
+                                        をコンパイルした結果が下記
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="150" y="376" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="20px" text-anchor="middle">
+                    return 2; return 3; =&gt; 2...
+                </text>
+            </switch>
+        </g>
+        <rect x="40" y="530" width="220" height="530" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 218px; height: 1px; padding-top: 537px; margin-left: 42px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div style="display: inline-block; font-size: 20px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                .intel_syntax noprefix
+                                <br/>
+                                .globl main
+                                <br/>
+                                main:
+                                <br/>
+                                push rbp
+                                <br/>
+                                mov rbp, rsp
+                                <br/>
+                                sub rsp, 208
+                                <br/>
+                                push 2
+                                <br/>
+                                pop rax
+                                <br/>
+                                mov rsp, rbp
+                                <br/>
+                                pop rbp
+                                <br/>
+                                ret
+                                <br/>
+                                pop rax
+                                <br/>
+                                push 3
+                                <br/>
+                                pop rax
+                                <br/>
+                                mov rsp, rbp
+                                <br/>
+                                pop rbp
+                                <br/>
+                                ret
+                                <br/>
+                                pop rax
+                                <br/>
+                                mov rsp, rbp
+                                <br/>
+                                pop rbp
+                                <br/>
+                                ret
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="42" y="557" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="20px">
+                    .intel_syntax noprefix...
+                </text>
+            </switch>
+        </g>
+        <rect x="49" y="945" width="120" height="110" rx="16.5" ry="16.5" fill="none" stroke="rgb(0, 0, 0)" stroke-width="4" pointer-events="all"/>
+        <path d="M 230 1005.73 L 175.36 1003.15" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 170.12 1002.9 L 177.27 999.73 L 175.36 1003.15 L 176.94 1006.72 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="230" y="990" width="180" height="40" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1010px; margin-left: 320px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 20px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">
+                                エピローグで生成
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="320" y="1016" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="20px" text-anchor="middle">
+                    エピローグで生成
+                </text>
+            </switch>
+        </g>
+        <rect x="50" y="825" width="120" height="120" rx="18" ry="18" fill="none" stroke="rgb(0, 0, 0)" stroke-width="4" pointer-events="all"/>
+        <rect x="50" y="680" width="120" height="120" rx="18" ry="18" fill="none" stroke="rgb(0, 0, 0)" stroke-width="4" pointer-events="all"/>
+        <path d="M 230 884.14 L 176.37 884.91" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 171.12 884.98 L 178.07 881.38 L 176.37 884.91 L 178.17 888.38 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="230" y="825" width="580" height="110" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe flex-start; width: 1px; height: 1px; padding-top: 880px; margin-left: 232px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div style="display: inline-block; font-size: 20px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">
+                                return 3; に対応
+                                <br/>
+                                returnノードのlhsに登録されている ND_NUMの3がpush
+                                <br/>
+                                ND_RETURNのcase文に入り、 raxにスタックから答えを格納
+                                <br/>
+                                rspとrbpを呼び出し元の状態に戻してret
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="232" y="886" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="20px">
+                    return 3; に対応...
+                </text>
+            </switch>
+        </g>
+        <rect x="420" y="420" width="390" height="110" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe flex-start; width: 388px; height: 1px; padding-top: 475px; margin-left: 422px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div style="display: inline-block; font-size: 20px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                <span style="color: rgb(34, 34, 34); font-family: &quot;Hiragino Kaku Gothic ProN W3&quot;, &quot;Hiragino Sans&quot;, arial; font-size: 20px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(254, 254, 254); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;">
+                                    ■前提
+                                    <br style="font-size: 20px;"/>
+                                    関数からリターンしたときにRAXに入っている値が関数の返り値という約束になっているので、ここでは値をRAXにセットしています
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="422" y="481" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="20px">
+                    ■前提
+関数からリターンしたときにRAXに入っている値が関数の返り値という約束になっているので、ここでは値をRAXにセットしています
+                </text>
+            </switch>
+        </g>
+        <path d="M 243.5 736.97 L 176.36 739.74" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 171.12 739.95 L 177.97 736.17 L 176.36 739.74 L 178.26 743.16 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="243.5" y="670" width="580" height="110" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe flex-start; width: 1px; height: 1px; padding-top: 725px; margin-left: 245px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div style="display: inline-block; font-size: 20px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">
+                                return 2; に対応
+                                <br/>
+                                returnノードのlhsに登録されている ND_NUMの3がpush
+                                <br/>
+                                ND_RETURNのcase文に入り、 raxにスタックから答えを格納
+                                <br/>
+                                rspとrbpを呼び出し元の状態に戻してret
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="245" y="731" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="20px">
+                    return 2; に対応...
+                </text>
+            </switch>
+        </g>
+        <rect x="50" y="1180" width="650" height="70" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1215px; margin-left: 375px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">
+                                上記のように、はじめのreturn文と関係ないコードは意味をなさない。そのため出力しなくてもよい。
+                                <br/>
+                                ただ実装を簡略化するためにコード生成はしたままとしておく。
+                                <br/>
+                                ということが伝えたかった。
+                                <br/>
+                                とくにエピローグで生成のところはreturn文の有無によらず生成される部分のことをテキストでは指していっている。
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="375" y="1219" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    上記のように、はじめのreturn文と関係ないコードは意味をなさない。そのため出力しなくてもよい。...
+                </text>
+            </switch>
+        </g>
+        <rect x="920" y="600" width="720" height="280" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe flex-start; width: 1px; height: 1px; padding-top: 740px; margin-left: 922px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div style="display: inline-block; font-size: 20px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">
+                                <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: &quot;Source Han Code JP&quot;, Consolas, &quot;Courier New&quot;, monospace; font-size: 14px; line-height: 19px;">
+                                    <div>
+                                        <span style="color: #569cd6;">
+                                            void
+                                        </span>
+                                        <span style="color: #dcdcaa;">
+                                            gen
+                                        </span>
+                                        (
+                                        <span style="color: #4ec9b0;">
+                                            Node
+                                        </span>
+                                        *
+                                        <span style="color: #9cdcfe;">
+                                            node
+                                        </span>
+                                        )
+                                    </div>
+                                    <div>
+                                        {
+                                    </div>
+                                    <div>
+                                        <span style="color: #6a9955;">
+                                            // 左辺の評価
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #c586c0;">
+                                            switch
+                                        </span>
+                                        (
+                                        <span style="color: #9cdcfe;">
+                                            node
+                                        </span>
+                                        -&gt;
+                                        <span style="color: #9cdcfe;">
+                                            kind
+                                        </span>
+                                        )
+                                    </div>
+                                    <div>
+                                        {
+                                    </div>
+                                    <div>
+                                        <span style="color: #c586c0;">
+                                            case
+                                        </span>
+                                        <span style="color: #4fc1ff;">
+                                            ND_RETURN
+                                        </span>
+                                        :
+                                    </div>
+                                    <div>
+                                        <span style="color: #dcdcaa;">
+                                            gen
+                                        </span>
+                                        (
+                                        <span style="color: #9cdcfe;">
+                                            node
+                                        </span>
+                                        -&gt;
+                                        <span style="color: #9cdcfe;">
+                                            lhs
+                                        </span>
+                                        );
+                                    </div>
+                                    <div>
+                                        <span style="color: #dcdcaa;">
+                                            printf
+                                        </span>
+                                        (
+                                        <span style="color: #ce9178;">
+                                            "  pop rax
+                                        </span>
+                                        <span style="color: #d7ba7d;">
+                                            \n
+                                        </span>
+                                        <span style="color: #ce9178;">
+                                            "
+                                        </span>
+                                        );
+                                        <span style="color: #6a9955;">
+                                            // スタックに積まれているローカル変数のアドレスをpop
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #dcdcaa;">
+                                            printf
+                                        </span>
+                                        (
+                                        <span style="color: #ce9178;">
+                                            "  mov rsp, rbp
+                                        </span>
+                                        <span style="color: #d7ba7d;">
+                                            \n
+                                        </span>
+                                        <span style="color: #ce9178;">
+                                            "
+                                        </span>
+                                        );
+                                    </div>
+                                    <div>
+                                        <span style="color: #dcdcaa;">
+                                            printf
+                                        </span>
+                                        (
+                                        <span style="color: #ce9178;">
+                                            "  pop rbp
+                                        </span>
+                                        <span style="color: #d7ba7d;">
+                                            \n
+                                        </span>
+                                        <span style="color: #ce9178;">
+                                            "
+                                        </span>
+                                        );
+                                    </div>
+                                    <div>
+                                        <span style="color: #dcdcaa;">
+                                            printf
+                                        </span>
+                                        (
+                                        <span style="color: #ce9178;">
+                                            "  ret
+                                        </span>
+                                        <span style="color: #d7ba7d;">
+                                            \n
+                                        </span>
+                                        <span style="color: #ce9178;">
+                                            "
+                                        </span>
+                                        );
+                                    </div>
+                                    <div>
+                                        <span style="color: #c586c0;">
+                                            return
+                                        </span>
+                                        ;
+                                    </div>
+                                    <div>
+                                        ...
+                                    </div>
+                                    <div>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="922" y="746" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="20px">
+                    void gen(Node *node)...
+                </text>
+            </switch>
+        </g>
+        <rect x="921" y="560" width="150" height="30" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 575px; margin-left: 996px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 15px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">
+                                gen()のコード抜粋
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="996" y="580" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="15px" text-anchor="middle">
+                    gen()のコード抜粋
+                </text>
+            </switch>
+        </g>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Text is not SVG - cannot display
+            </text>
+        </a>
+    </switch>
+</svg>
